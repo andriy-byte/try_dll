@@ -1,0 +1,7 @@
+big.flf
+bin/**
+.cache/**
+build/**
+out/**
+.idea/**
+lib/**

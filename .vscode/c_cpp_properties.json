@@ -1,0 +1,33 @@
+{
+  "env": {
+    "myDefaultIncludePath": [
+      "${workspaceFolder}",
+      "${workspaceFolder}/include"
+    ],
+    "myCompilerPath": "/usr/local/bin/gcc-7"
+  },
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "/usr/local/include/"
+      ],
+      "defines": [
+        "FOO",
+        "BAR=100"
+      ],
+      "compilerPath": "/usr/bin/clang++-15",
+      "cStandard": "c17",
+      "cppStandard": "c++23",
+      "browse": {
+        "path": [
+          "${workspaceFolder}"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      },
+      "configurationProvider": "ms-vscode.cmake-tools"
+    }
+  ],
+  "version": 4
+}
